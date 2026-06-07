@@ -1,2 +1,2 @@
 # ReactJS
-Will upload my React JS codes here
+Will upload my React JS code stuff here
