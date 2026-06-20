@@ -1,0 +1,13 @@
+SYNTAX FOR USEREDUCER HOOK :
+const [state,Dispatch]=useReducer[reducer,initialState]
+IniitalState -> for example if we are making a counter,we can keep initialState as 0
+Reducer(a function) -> defines that how should the state change based on actions/conditions!
+State -> current state value which can be used in the component
+Dispatch-> A function u call to send actions to the reducer
+
+Reducer FUNCTION:
+
+functioin reducer(state,action) {
+
+}//on which conditions the action should be taken and what state to update after the action
+

@@ -1,6 +1,8 @@
 import { useReducer } from "react";
 
 const initState = { count: 0 };
+// /. const [state,dispatch]=useReducer[dispatch,initState]
+//const initState={count:0}
 
 function reducer(state, action) {
   switch (action.type) {
@@ -15,7 +17,7 @@ function reducer(state, action) {
   }
 }
 
-const App = () => {
+const CounterReducer = () => {
   const [state, dispatch] = useReducer(reducer, initState);
 
   return (
@@ -29,4 +31,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default CounterReducer
