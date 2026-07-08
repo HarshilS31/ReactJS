@@ -1,0 +1,15 @@
+button {
+  padding : 10px 20px;
+  margin : 5px;
+  background-color:cyan;
+  color:blueviolet;
+  border: 2px solid blueviolet;
+  border-radius:25%;
+
+}
+h1 {
+  padding : 10px 20px;
+  margin : 5px;
+  color:blueviolet;
+
+}
